@@ -1,0 +1,44 @@
+./" Manpage for your script
+.TH Script 1 "29 May 2023" "1.01" "Manual Script"
+.SH NAZWA
+Script - Skrypt wykonujący kopie zapasową wskazanego przez użytkownika pliku lub folderu
+.SH SKLADNIA
+Script.sh
+.SH OPIS 
+Program wykonuje kopie zapasowe wybranego przez uzytkownika pliku lub folderu. Uzytkownik wybiera miejsce zapisu wykonywanych kopii, czestotliowsc ich wykonywania, a takze ilosc przetrzymywanych kopii. W przypadku wykonywania kopii folderu zapisywane sa tylko i wylacznie pliki usuniete. 
+.SH OPCJE 
+.B Script.sh nie przyjmuje opcji podczas uruchamiania.
+.SH PRZEGLAD
+.B Wybierz plik lub folder
+Wyswietla okno wyboru pliku lub folderu, ktorego kopia ma byc tworzona
+
+.B Wybierz lokalizację zapisu
+Umozliwia wybranie lokalizacji zapisu kopii zapasowych
+
+.B Ustaw częstotliwość wykonywania kopii 
+Umozliwia ustawienie interwalu pomiędzy kolejnymi zapisami
+
+.B Podaj liczbę przetrzymywanych kopii
+Umozliwia wybor liczby przetrzymywanych kopii zapasowych, starsze zostaja usuniete
+
+.B Help
+Wypisuje informacje pomocnicze do skryptu
+
+.B Info
+Wyswietla informacje o skrypcie
+
+.B Rozpocznij
+Wybranie tej opcji rozpocznie wykonywanie kopii zapasowych 
+
+.B Wyjscie
+Konczy dzialanie programu 
+.SH BUGGS 
+W momencie, gdy uzytkownik nie poda lokalizacji zapisu wykonywanych kopii, ta nazwa nadawana jest losowo i istnieje mozliwosc, ze folder o wylosowanej nazwie juz istnieje. Skutkowac to bedzie bledem przy probie stworzenia danego folderu. 
+.SH AUTOR
+written by Maciej Szymczak (https://github.com/krecik541)
+.SH ZGLASZANIE BLEDOW
+https://github.com/krecik541/BashScript
+.SH PRAWA AUTORSKIE
+GNU Version 3, 29 June 2007, 2007 Free Software Foundation
+.SH WIECEJ INFORMACJI
+Wiecej informacji znajdziesz na stronie https://github.com/krecik541/BashScript lub wybierajac opcje "Help" podczas dzialania programu.
