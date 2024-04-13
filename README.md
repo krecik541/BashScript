@@ -13,3 +13,4 @@ Jeśli do tworzenia kopii zapasowej wybrany zostanie folder wtedy kopiowane będ
   
 Całość została oparta na interfejsie graficznym zenity.
 
+ 
